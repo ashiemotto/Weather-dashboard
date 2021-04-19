@@ -23,7 +23,7 @@
         const citys = `
   <div class="city">
 <h2>${data.name} ${time} </h2>
-<img src= "https//openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">
+<img src= "https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">
 <p>Temperature  = ${data.main.temp}</p>
 <p>Humidity = ${data.main.humidity}%</p>
 <p>Wind Speed = ${data.wind.speed} KPH</p>
