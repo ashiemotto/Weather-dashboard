@@ -1,0 +1,21 @@
+
+
+
+
+
+.display.severe{
+    padding: 25px;
+    background-color: red;
+    
+}
+
+.display.moderate{
+    padding: 25px;
+    background-color: yellow;
+}
+
+.display.favorable{
+    padding: 25px;
+    background-color: green;
+    
+}
