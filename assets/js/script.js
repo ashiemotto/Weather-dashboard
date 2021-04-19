@@ -13,7 +13,7 @@
   function getApi() {
      // sets id of cityId to get weather for input 
     const cityId= localStorage.getItem("currentCity") 
-    var requestUrl ="http://api.openweathermap.org/data/2.5/weather?q="+cityId+"&appid="+ apikey+"&units=metric";
+    var requestUrl ="https://api.openweathermap.org/data/2.5/weather?q="+cityId+"&appid="+ apikey+"&units=metric";
     fetch(requestUrl)
       .then(function (response) {  
         return response.json().then(function (data) {
@@ -23,7 +23,7 @@
         const citys = `
   <div class="city">
 <h2>${data.name} ${time} </h2>
-<img src= "http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">
+<img src= "https//openweathermap.org/img/wn/${data.weather[0].icon}@2x.png">
 <p>Temperature  = ${data.main.temp}</p>
 <p>Humidity = ${data.main.humidity}%</p>
 <p>Wind Speed = ${data.wind.speed} KPH</p>
@@ -58,7 +58,7 @@ function getFiveDay() {
       <div>
       <p>Temperature  = ${fiveData.daily[0].temp.day}</p>
       <p>Humidity = ${fiveData.daily[0].humidity}%</p>
-      <img src= "http://openweathermap.org/img/wn/${fiveData.daily[0].weather[0].icon}@2x.png">
+      <img src= "https://openweathermap.org/img/wn/${fiveData.daily[0].weather[0].icon}@2x.png">
        </div>
       `;
       const weather1 = document.getElementById("day1");
@@ -75,7 +75,7 @@ function getFiveDay() {
       <div>
       <p>Temperature  = ${fiveData.daily[1].temp.day}</p>
       <p>Humidity = ${fiveData.daily[1].humidity}%</p>
-      <img src= "http://openweathermap.org/img/wn/${fiveData.daily[1].weather[0].icon}@2x.png">
+      <img src= "https://openweathermap.org/img/wn/${fiveData.daily[1].weather[0].icon}@2x.png">
        </div>
       `;
       const weather2 = document.getElementById("day2");
@@ -92,7 +92,7 @@ function getFiveDay() {
       <div>
       <p>Temperature  = ${fiveData.daily[2].temp.day}</p>
       <p>Humidity = ${fiveData.daily[2].humidity}%</p>
-      <img src= "http://openweathermap.org/img/wn/${fiveData.daily[2].weather[0].icon}@2x.png">
+      <img src= "https://openweathermap.org/img/wn/${fiveData.daily[2].weather[0].icon}@2x.png">
        </div>
       `;
       const weather3 = document.getElementById("day3");
@@ -109,7 +109,7 @@ function getFiveDay() {
       <div>
       <p>Temperature  = ${fiveData.daily[3].temp.day}</p>
       <p>Humidity = ${fiveData.daily[3].humidity}%</p>
-      <img src= "http://openweathermap.org/img/wn/${fiveData.daily[3].weather[0].icon}@2x.png">
+      <img src= "https://openweathermap.org/img/wn/${fiveData.daily[3].weather[0].icon}@2x.png">
        </div>
       `;
       const weather4 = document.getElementById("day4");
@@ -126,7 +126,7 @@ function getFiveDay() {
       <div>
       <p>Temperature  = ${fiveData.daily[4].temp.day}</p>
       <p>Humidity = ${fiveData.daily[4].humidity}%</p>
-      <img src= "http://openweathermap.org/img/wn/${fiveData.daily[4].weather[0].icon}@2x.png">
+      <img src= "https://openweathermap.org/img/wn/${fiveData.daily[4].weather[0].icon}@2x.png">
        </div>
       `;
       const weather5 = document.getElementById("day5");
