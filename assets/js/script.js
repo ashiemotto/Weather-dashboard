@@ -182,5 +182,5 @@ function newlist(){
   var cityName = $(".list-group").addClass("list-group-item");
 
   cityName.append("<li>" + city + "</li>")}
-
+  
 
