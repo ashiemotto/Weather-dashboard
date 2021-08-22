@@ -17,7 +17,8 @@ An App that shows the weather and long range forcast of a choosen city
   
 ## Usage
 ```md
-clone the repository and open index folder in your browser or follow the link https://ashiemotto.github.io/Weather-dashboard/
+clone the repository and open index folder in your browser or 
+follow the link https://ashiemotto.github.io/Weather-dashboard/
 ```
   
 ## Screenshot
@@ -30,7 +31,7 @@ GitHub
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/mit)
   
-## Questions a
+## Questions 
 Add an issue through GitHub:
  https://github.com/Ashiemotto
   
